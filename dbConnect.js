@@ -1,7 +1,7 @@
 const {Sequelize} = require('sequelize')
 
 
-const DATABASE_NAME= process.env.DATABASE_NAME
+const DATABASE_NAME= process.env.DB_NAME
 const DBUSER = process.env.DB_USER
 const DBPASS = process.env.DB_PASS
 
